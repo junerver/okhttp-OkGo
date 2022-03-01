@@ -1,3 +1,9 @@
+我非常喜欢的一个请求库，因为作者停止维护+jcenter停止运维，故fork后迁移到[maven central](https://repo1.maven.org/maven2/xyz/junerver/okgo/okgo/)
+
+```groovy
+implementation 'xyz.junerver.okgo:okgo:0.0.1'
+```
+
 ![](http://7xss53.com1.z0.glb.clouddn.com/markdown/aqyyw.jpg)
 
 ## OkGo - 3.0 震撼来袭, 一个基于okhttp的标准RESTful风格的网络框架
@@ -56,7 +62,7 @@ Android Studio用户
 
 ```java
 //必须使用
-implementation 'com.lzy.net:okgo:3.0.4'
+~~implementation 'com.lzy.net:okgo:3.0.4'~~
 
 //以下三个选择添加，okrx和okrx2不能同时使用
 implementation 'com.lzy.net:okrx:1.0.2'
