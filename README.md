@@ -56,12 +56,12 @@ Android Studio用户
 
 ```java
 //必须使用
-compile 'com.lzy.net:okgo:3.0.4'
+implementation 'com.lzy.net:okgo:3.0.4'
 
 //以下三个选择添加，okrx和okrx2不能同时使用
-compile 'com.lzy.net:okrx:1.0.2'
-compile 'com.lzy.net:okrx2:2.0.2'  
-compile 'com.lzy.net:okserver:2.0.5'
+implementation 'com.lzy.net:okrx:1.0.2'
+implementation 'com.lzy.net:okrx2:2.0.2'  
+implementation 'com.lzy.net:okserver:2.0.5'
 ```
 
 Eclipse的用户(赶紧换AS吧)，可以选择添加本项目根目录中 `/jar` 目录下的jar包:
